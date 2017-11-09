@@ -3,8 +3,8 @@
 Building app to get Top list for Expansya Developers based on their Github Profiles
 https://www.expensya.com
 
-**Database uploded on MLab**
-
+**Database uploaded on MLab**
+VIEW: https://githacker-expensya.herokuapp.com/
 ## Using
 
 * MongoDB
