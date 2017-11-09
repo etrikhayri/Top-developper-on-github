@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        <link rel="stylesheet" href="./css/profile.css">
+    </head>
+    <body >
+       
+        
+        <div class="container">
+            <div class="row profile">
+                <div class="col-md-3">
+                    <div class="profile-sidebar">
+                        <div class="profile-user-pic">
+                            <img src="https://avatars.githubusercontent.com/{{p.username}}" class="img-responsive img-circle">
+                        </div>
+                        <div class="profile-user-title">
+                            <div class="profile-user-name">
+                                {{p.username}}
+                               
+                            </div>
+                            <div class="profile-user-job">
+                                Score:{{p.score}}
+                            </div>
+                        </div>
+                        <div class="profile-user-buttons">
+                            <a href="https://github.com/{{p.username}}"><button class="btn btn-success btn-sn">
+                                Follow
+                                </button></a>
+                        </div>
+                        <div class="profile-user-menu">
+                            <ul class="nav">
+                                <li ><a><i class="glyphicon glyphicon-home" ></i>Country: Tunisia </a></li>
+                                <li ><a><i class="glyphicon glyphicon-star"></i>Stars: {{p.starsNbr}}</a></li>
+                                <li ><a><i class="glyphicon glyphicon-ok"></i>N.forks:{{p.forksNbr}}</a></li>
+                                <li ><a><i class="glyphicon glyphicon-flag"></i>N.issues:{{p.issueNbr}}</a></li>
+                            </ul>  
+                        </div>
+                    </div>
+                </div>
+                   <div class="contleft">
+                        <div class="col md-9">
+                                <zingchart id="myChart" zc-json="myJson" zc-height="570" zc-width="600"></zingchart>
+                            
+                        </div>
+                   </div>
+                   <div class="conleftleft">
+                       <div class="haut">
+                        <img src="./files/projet.png" width="110px" height="110px">
+                        </div>
+                        <div class="mot">N.projects</div>
+                        <div class="bas">
+                                {{p.nbrprojet}}
+                        </div>
+                        
+                   </div>
+                   <div class="conleftleft2">
+                        <div class="haut">
+                                <img src="./files/watcher.png" width="110px" height="110px">
+                               
+                                </div>
+                                <div class="mot"> N.watchers</div>
+                                <div class="bas">
+                                        {{p.watchNbr}}
+                                </div>
+                        
+                   </div>
+            </div>
+        </div>
+        
+    
+    </body>
+<script>
+   
+</script>
+ 
+
+
+</html>

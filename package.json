@@ -1,0 +1,33 @@
+{
+  "name": "MEAN",
+  "version": "1.0.0",
+  "description": "Top github developers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Git awards",
+    "Express",
+    "Angularjs",
+    "nodejs",
+    "Mongodb"
+  ],
+  "author": "FivePoints",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "lodash.isempty": "^4.4.0",
+    "mongodb": "^2.0.43",
+    "octonode": "^0.9.1"
+  }
+}
